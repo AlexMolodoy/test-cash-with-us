@@ -1,0 +1,163 @@
+.card{
+  width: 328px;
+  height: 352px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.card:hover{
+  border-width: 6px;
+
+}
+
+.card1 {
+  background: linear-gradient(180deg, #6377E1 0%, #2920A5 100%);
+  border: 2px solid #576bde;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+
+}
+
+.card1::before{
+  content: '';
+  position: absolute;
+  background-image: url("./assets/arrow.png");
+  bottom: -50px;
+  right: -2px;
+  height: 90px; 
+  width: 40px; 
+  z-index: 100;
+}
+
+.card3::before{
+  content: '';
+  position: absolute;
+  background-image: url("./assets/arrow.png");
+  top: -50px;
+  right: -2px;
+  height: 90px; 
+  width: 40px; 
+  z-index: 100;
+}
+
+.card2 {
+  background: linear-gradient(180deg, #E163E1 0%, #741595 100%);
+  border: 2px solid #e895e9;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  z-index: 1;
+
+}
+.card3 {
+  border: 2px solid #85c662;
+  background: linear-gradient(180deg, #55CE00 0%, #014D1D 100%);
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  z-index: 2;
+
+  }
+
+  .card-title{
+    display: flex;
+    margin: 18px;
+  }
+  
+  .card-image {
+    position:absolute;
+    z-index: 1;
+  }
+
+  .card-image1{
+    margin-top: 18px;
+    margin-left: 9px;
+    width: 305px;
+    height: 290px;
+  }
+
+  .card-image2{
+    margin-top: -23px;
+    margin-left: -17px;
+    max-width: none;
+    width: 360px;
+    height: 342px;
+  }
+  .card-image3{
+    margin-top: -15px;
+    margin-left: -17px;
+    max-width: none;
+    width: 360px;
+    height: 293px;
+  }
+  
+  .title {
+    margin-left: 16px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+  }
+  
+
+  .title1 {
+    width: 210px;
+  }
+  .title2 {    
+    width: 120px;
+  }
+  .title3 {    
+    width: 195px;
+  }
+
+
+  @media (min-width: 1281px){
+    .card{
+      width: 420px;
+      height: 350px;
+      border-radius: 20px;
+      position: relative;
+    }
+
+    .card-image1{
+      margin-top: 15px;
+      margin-left: 55px;
+    }
+  
+    .card-image2{
+      margin-top: -24px;
+      margin-left: 13px;
+      width: 377px;
+    }
+    .card-image3{
+      margin-top: 7px;
+      margin-left: 10px;
+      width: 392px;
+    }
+
+    .card1::before{
+
+      bottom: 195px;
+      right: -25px;
+      rotate: 90deg;
+      transform: scale(1, -1) ;
+    }
+    
+    .card3::before{
+      top: 60px;
+      left: -30px;
+      rotate: 90deg;
+      transform: scale(1, -1) ;
+    }
+    
+    
+    .title3 {    
+      width: 300px;
+    }
+
+    .card-title{
+      display: flex;
+      margin: 18px;
+    }
+    
+  
+  }
