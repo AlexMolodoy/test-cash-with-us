@@ -1,5 +1,5 @@
 import React, { CSSProperties } from 'react';
-import './NumberCircle.css';
+import styles from './NumberCircle.module.css';
 
 type NumberCircleProps = {
   number: number;
@@ -8,7 +8,10 @@ type NumberCircleProps = {
 
 const NumberCircle: React.FC<NumberCircleProps> = ({ number, style }) => {
   return (
-    <div className={`number-circle number-circle${number}`} style={style}>
+    <div
+      className={`${styles.numberCircle} ${styles[`numberCircle${number}`]}`}
+      style={style}
+    >
       {number}
     </div>
   );

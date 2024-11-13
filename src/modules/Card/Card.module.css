@@ -1,0 +1,87 @@
+.card {
+  width: 328px;
+  height: 352px;
+  border-radius: 20px;
+  position: relative;
+  padding: 18px;
+}
+
+.card:hover {
+  border-width: 6px;
+  padding: 14px;
+}
+
+.card1 {
+  background: linear-gradient(180deg, #6377e1 0%, #2920a5 100%);
+  border: 2px solid #576bde;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+.card2 {
+  background: linear-gradient(180deg, #e163e1 0%, #741595 100%);
+  border: 2px solid #e895e9;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  z-index: 1;
+}
+
+.card3 {
+  border: 2px solid #85c662;
+  background: linear-gradient(180deg, #55ce00 0%, #014d1d 100%);
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  z-index: 2;
+}
+
+.cardImage {
+  position: absolute;
+  z-index: 1;
+}
+
+.cardImage1 {
+  margin-top: 35px;
+  margin-left: -10px;
+  width: 305px;
+  height: 290px;
+}
+
+.cardImage2 {
+  margin-top: -5px;
+  margin-left: -51px;
+  max-width: none;
+  width: 377px;
+  height: 342px;
+}
+
+.cardImage3 {
+  margin-top: 2px;
+  margin-left: -56px;
+  max-width: none;
+  width: 395px;
+  height: 293px;
+}
+
+@media (min-width: 1281px) {
+  .card {
+    width: 420px;
+    height: 350px;
+    border-radius: 20px;
+    position: relative;
+  }
+
+  .cardImage1 {
+    margin-top: 35px;
+    margin-left: 40px;
+  }
+
+  .cardImage2 {
+    margin-top: -5px;
+    margin-left: -3px;
+  }
+
+  .cardImage3 {
+    margin-top: 26px;
+    margin-left: -7px;
+  }
+}

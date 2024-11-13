@@ -1,0 +1,66 @@
+.cardTitle {
+  display: flex;
+}
+.title {
+  margin-left: 16px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  position: relative;
+}
+
+.title1 {
+  width: 210px;
+}
+
+.title1::before {
+  content: '';
+  position: absolute;
+  background-image: url('./assets/arrow.png');
+  bottom: -333px;
+  right: -33px;
+  height: 90px;
+  width: 40px;
+  z-index: 100;
+}
+
+.title2 {
+  width: 120px;
+}
+
+.title3 {
+  width: 195px;
+}
+
+.title3::before {
+  content: '';
+  position: absolute;
+  background-image: url('./assets/arrow.png');
+  top: -70px;
+  right: -47px;
+  height: 90px;
+  width: 40px;
+  z-index: 100;
+}
+
+@media (min-width: 1281px) {
+  .title1::before {
+    bottom: -90px;
+    right: -150px;
+    rotate: 90deg;
+    transform: scale(1, -1);
+  }
+
+  .title3::before {
+    top: 47px;
+    left: -110px;
+    rotate: 90deg;
+    transform: scale(1, -1);
+  }
+
+  .title3 {
+    width: 300px;
+  }
+}

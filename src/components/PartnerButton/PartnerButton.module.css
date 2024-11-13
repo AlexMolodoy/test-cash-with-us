@@ -1,0 +1,51 @@
+.partnerButton {
+  margin-top: 57px;
+  margin-bottom: 30px;
+  width: 220px;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #5dc416 0%, #367b05 100%);
+  border: 3px solid #95ff4ba3;
+  box-shadow:
+    0px 4px 8px 0px #3d93007a,
+    0px 0px 0px 4px #5bc0143d;
+  display: flex;
+  justify-content: space-between;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  padding: 10px 12px;
+  text-align: center;
+}
+
+.partnerButton:hover {
+  border: 4px solid #95ff4ba3;
+  box-shadow: 0px 0px 0px 6px #5bc0143d;
+  padding: 9px 11px;
+}
+
+.partnerButton:active {
+  border: 2px solid #95ff4ba3;
+  padding: 11px 13px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.partnerButtonText {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-right: 15px;
+}
+
+@media (min-width: 1281px) {
+  .partnerButton {
+    margin-left: 529px;
+    margin-top: 63px;
+  }
+}

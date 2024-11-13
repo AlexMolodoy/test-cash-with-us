@@ -1,0 +1,26 @@
+.contentContainer {
+  width: 344px;
+  height: 1088px;
+  border-radius: 28px;
+  background:
+    linear-gradient(180deg, rgba(107, 125, 222, 0.12) 0%, #2921a5 100%)
+      padding-box,
+    rgba(107, 125, 222, 0.24) border-box;
+  backdrop-filter: blur(48px);
+  -webkit-backdrop-filter: blur(48px);
+  box-shadow: 0px 24px 48px 0px rgba(23, 43, 151, 0.72);
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (min-width: 1281px) {
+  .contentContainer {
+    flex-direction: row;
+    width: 1281px;
+    height: 360px;
+    border-radius: 28px;
+  }
+}

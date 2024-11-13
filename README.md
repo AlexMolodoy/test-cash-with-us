@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Cash with us
 
-## Getting Started
+Демо-приложение, созданное в рамках тестового задания. Проект представляет собой адаптивную верстку по макету из Figma с использованием Next.js.
 
-First, run the development server:
+## 📄 ТЗ
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Задеплоить проект на GitHub Pages или Vercel.
+2. Предоставить ссылку на открытый репозиторий проекта.
+3. Необходимо сверстать по макету в figma блоки "Заработать с нами" (включая адаптивную версию), используя NextJS. Элементы для ТЗ представлены в «ТЗ1», «Section1».
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📄 О проекте
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Этот проект развернут с помощью Next.js и демонстрирует следующее:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Стилизация**: CSS-модули и Tailwind CSS.
+2. **PixelPerfect-верстка**: достижение 99% совпадения с макетом Figma (допустимые отклонения — шрифты и начертания).
+3. **Адаптивность**: поддержка экранов шириной 360px для мобильных устройств и 1920px для десктопа.
+4. **Модульная архитектура**: организованна модульная структура для упрощения поддержки и масштабирования.
+5. **Кастомная страница 404**: тк приложение состоит из 1 страницы, а понимание роутинга хочется показать - сделал кастомную страницу 404 (not-found.tsx)
 
-## Learn More
+## 🔗 Ссылки
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Ссылка на макет Figma**: [Макет в Figma](https://www.figma.com/file/rL8MrjYwIwQ2N8mg95NZBo/Untitled?type=design&node-id=0-1&mode=design&t=SyyfKGoAVHyuECsp-0)
+- **Демо на Vercel**: [test-cash-with-us.vercel.app](https://test-cash-with-us.vercel.app/)
+- **Репозиторий на GitHub**: [GitHub Repository](https://github.com/AlexMolodoy/test-cash-with-us)
