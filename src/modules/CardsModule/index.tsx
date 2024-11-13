@@ -4,9 +4,9 @@ import Card from '../Card';
 import CASH_IMAGE from './assets/cash.png';
 import PARTNER_IMAGE from './assets/partner.png';
 import SOCIAL_IMAGE from './assets/social.png';
-import styles from './CardContainer.module.css';
+import styles from './CardsModule.module.css';
 
-export default function CardContainer() {
+export default function CardsModule() {
   return (
     <div className={styles.contentContainer}>
       <Card
