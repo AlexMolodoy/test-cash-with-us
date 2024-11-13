@@ -3,10 +3,12 @@
   height: 352px;
   border-radius: 20px;
   position: relative;
+  padding: 18px;
 }
 
 .card:hover{
   border-width: 6px;
+  padding: 14px;
 
 }
 
@@ -16,28 +18,6 @@
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 
-}
-
-.card1::before{
-  content: '';
-  position: absolute;
-  background-image: url("./assets/arrow.png");
-  bottom: -50px;
-  right: -2px;
-  height: 90px; 
-  width: 40px; 
-  z-index: 100;
-}
-
-.card3::before{
-  content: '';
-  position: absolute;
-  background-image: url("./assets/arrow.png");
-  top: -50px;
-  right: -2px;
-  height: 90px; 
-  width: 40px; 
-  z-index: 100;
 }
 
 .card2 {
@@ -59,7 +39,6 @@
 
   .card-title{
     display: flex;
-    margin: 18px;
   }
   
   .card-image {
@@ -68,24 +47,24 @@
   }
 
   .card-image1{
-    margin-top: 18px;
-    margin-left: 9px;
+    margin-top: 35px;
+    margin-left: -10px;
     width: 305px;
     height: 290px;
   }
 
   .card-image2{
-    margin-top: -23px;
-    margin-left: -17px;
+    margin-top: -5px;
+    margin-left: -51px;
     max-width: none;
-    width: 360px;
+    width: 377px;
     height: 342px;
   }
   .card-image3{
-    margin-top: -15px;
-    margin-left: -17px;
+    margin-top: 2px;
+    margin-left: -56px;
     max-width: none;
-    width: 360px;
+    width: 395px;
     height: 293px;
   }
   
@@ -96,17 +75,41 @@
     font-weight: 600;
     line-height: 24px;
     text-align: left;
+    position: relative;
   }
   
 
   .title1 {
     width: 210px;
   }
+
+  .title1::before{
+    content: '';
+    position: absolute;
+    background-image: url("./assets/arrow.png");
+    bottom: -333px;
+    right: -33px;
+    height: 90px; 
+    width: 40px; 
+    z-index: 100;
+  }
+  
   .title2 {    
     width: 120px;
   }
   .title3 {    
     width: 195px;
+  }
+
+  .title3::before{
+    content: '';
+    position: absolute;
+    background-image: url("./assets/arrow.png");
+    top: -70px;
+    right: -47px;
+    height: 90px; 
+    width: 40px; 
+    z-index: 100;
   }
 
 
